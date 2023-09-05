@@ -14,7 +14,7 @@ public class Map {
 
     public static void render(int x,int y){
         batch.begin();
-        batch.draw(map,x,y,1200,900);
+        batch.draw(map,x,y,100000,100000);
         batch.end();
     }
 }
